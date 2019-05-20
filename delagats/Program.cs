@@ -8,15 +8,15 @@ namespace delagats
 {
     public static class StringFormatter //homework
     {
-        public static List<string> Formatter(this List<string> list, Func<string, string> del)
+        public static List<string> Formatter(this List<string> list, Func<string, string> del)//homework
         {
-            List<string> ResultString = new List<string>();
-            foreach (string item in list)
+            List<string> ResultString = new List<string>();//homework
+            foreach (string item in list)//homework
             {
-                string result = del(item);
-                ResultString.Add(result);
+                string result = del(item);//homework
+                ResultString.Add(result);//homework
             }
-            return ResultString;
+            return ResultString;//homework
         }
     }
 
